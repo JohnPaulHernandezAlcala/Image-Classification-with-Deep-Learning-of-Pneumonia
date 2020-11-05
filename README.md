@@ -11,35 +11,45 @@ This project uses a data derived method for classifying patients that have pneum
 
 ## Where to Start First:
 
-### 1. Access the [Convolutional Neural Network for Pneumonia Patients ](https://www.kaggle.com/johnpaulhernandez/convolution-neural-network-for-pneumonia-patients/edit) first.
+### 1. Access the [Convolutional Neural Network for Pneumonia Patients ](https://github.com/JohnPaulHernandezAlcala/Image-Classification-with-Deep-Learning-of-Pneumonia/blob/main/convolution-neural-network-for-pneumonia-patients.ipynb) first.
 ### 2. Follow along with the coding narrative and comments.
-### 3. Preview the uploaded presentation, [Convolutional Neural Network for Pneumonia Patients ](https://github.com/JohnPaulHernandezAlcala/Bank-Targeted-Marketing/blob/master/Bank%20Targeted%20Marketing.pdf).
+### 3. Preview the uploaded presentation, [Convolutional Neural Network for Pneumonia Patients ](https://github.com/JohnPaulHernandezAlcala/Image-Classification-with-Deep-Learning-of-Pneumonia/blob/main/Convolutional-Neural-Network-for-Pneumonia-Patients.pdf).
 
 ### Original Model
-![](https://github.com/JohnPaulHernandezAlcala/Image-Classification-with-Deep-Learning-of-Pneumonia/blob/main/ROC-Initial-Model.pngg)
+![](https://github.com/JohnPaulHernandezAlcala/Image-Classification-with-Deep-Learning-of-Pneumonia/blob/main/Images/ROC-Initial-Model.png)
 
 ### Model with Custom Threshold
-![](https://github.com/JohnPaulHernandezAlcala/Image-Classification-with-Deep-Learning-of-Pneumonia/blob/main/ROC-Initial-Model-w-threshold.png)
+![](https://github.com/JohnPaulHernandezAlcala/Image-Classification-with-Deep-Learning-of-Pneumonia/blob/main/Images/ROC-Initial-Model-w-threshold.png)
 
 ### Model with Custom Threshold Confusion Matrix
-![Confusion Matrix](https://github.com/JohnPaulHernandezAlcala/Image-Classification-with-Deep-Learning-of-Pneumonia/blob/main/ConfusionMatrix-Initial-Model.PNG)
+![Confusion Matrix](https://github.com/JohnPaulHernandezAlcala/Image-Classification-with-Deep-Learning-of-Pneumonia/blob/main/Images/ConfusionMatrix-Initial-Model.PNG)
 
-Here we see our model with and without a threshold implemented. This threshold makes our model more specific, but less sensitive than the default threshold of 0.5; that is, our threshold model allows for more false negatives in order to reduce false positives so an optimal accuracy can be achieved. With the threshold model, we are able to classify ~85% of patients with pneumonia who were indeed infected, and it also classified 95% of patients without pneumonia who were indeed not infected. This is compared to our original model that was able to classify ~89% of patients with pneumonia as who were indeed infected and 91% of patients without pneumonia who were indeed not infected.
+Here we see our model with and without a threshold implemented. This threshold makes our model more specific, but less sensitive than the default threshold of 0.5; that is, our threshold model allows for more false negatives in order to reduce false positives so an optimal accuracy can be achieved.
 
 
 ### ROC-AUC Graph of Second Model and Initial Model with Custom Threshold
-![](https://github.com/JohnPaulHernandezAlcala/Image-Classification-with-Deep-Learning-of-Pneumonia/blob/main/initial-and-second-model-ROC.png)
+![](https://github.com/JohnPaulHernandezAlcala/Image-Classification-with-Deep-Learning-of-Pneumonia/blob/main/Images/initial-and-second-model-ROC.png)
 
 ### Second Model Confusion Matrix
-![Confusion Matrix](https://github.com/JohnPaulHernandezAlcala/Image-Classification-with-Deep-Learning-of-Pneumonia/blob/main/Second-model-Confusion-Matrix.PNG)
+![Confusion Matrix](https://github.com/JohnPaulHernandezAlcala/Image-Classification-with-Deep-Learning-of-Pneumonia/blob/main/Images/Second-model-Confusion-Matrix.PNG)
 
 ## Loss and Recall Graphs
-![](https://github.com/JohnPaulHernandezAlcala/Image-Classification-with-Deep-Learning-of-Pneumonia/blob/main/Second-model-loss.png)
-![](https://github.com/JohnPaulHernandezAlcala/Image-Classification-with-Deep-Learning-of-Pneumonia/blob/main/Second-model-recall.png)
+![](https://github.com/JohnPaulHernandezAlcala/Image-Classification-with-Deep-Learning-of-Pneumonia/blob/main/Images/Second-model-loss.png)
+![](https://github.com/JohnPaulHernandezAlcala/Image-Classification-with-Deep-Learning-of-Pneumonia/blob/main/Images/Second-model-recall.png)
+
+### ROC-AUC Graph of Third(final), Second and Initial Model with Custom Threshold
+![](https://github.com/JohnPaulHernandezAlcala/Image-Classification-with-Deep-Learning-of-Pneumonia/blob/main/Images/Model_comparison.PNG)
+
+### Final Model Confusion Matrix
+![Confusion Matrix](https://github.com/JohnPaulHernandezAlcala/Image-Classification-with-Deep-Learning-of-Pneumonia/blob/main/Images/FinalConfusionMatrix.PNG)
+
+## Loss and Recall Graphs
+![](https://github.com/JohnPaulHernandezAlcala/Image-Classification-with-Deep-Learning-of-Pneumonia/blob/main/Images/final-model-loss.png)
+![](https://github.com/JohnPaulHernandezAlcala/Image-Classification-with-Deep-Learning-of-Pneumonia/blob/main/Images/final-model-recall.png)
 
 
 ## Conclusion
-From the above, we see that the best model is the second model because it has the least amount of loss and high recall. With this model and our total analysis, we can produce three business recommendations:
+From the above, we see that the best model is the second model because it has the least amount of loss and high recall. With this model and our analysis, we can produce three business recommendations:
 
 1. **Paves the way for efficient diagnosis**
 2. **Allows for quick insurance validation**
