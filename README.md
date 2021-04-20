@@ -1,6 +1,6 @@
 # Convolutional Neural Network for Pneumonia Patients 
 
-<img src="https://miro.medium.com/max/612/1*7OObzMi5WbGiY4QprfJ3Lw.jpeg" width="300">
+<img src="https://miro.medium.com/max/612/1*7OObzMi5WbGiY4QprfJ3Lw.jpeg" width="500">
 
 *Author: John Paul Hernandez Alcala*
 
