@@ -11,7 +11,7 @@ This project uses a data derived method for classifying patients that have pneum
 
 ## Where to Start First:
 
-### 1. Access the [Convolutional Neural Network for Pneumonia Patients ](https://github.com/JohnPaulHernandezAlcala/Image-Classification-with-Deep-Learning-of-Pneumonia/blob/main/convolution-neural-network-for-pneumonia-patients.ipynb) first.
+### 1. Access the [Convolutional Neural Network for Pneumonia Patients ](https://nbviewer.jupyter.org/github/JohnPaulHernandezAlcala/Image-Classification-with-Deep-Learning-of-Pneumonia/blob/main/convolution-neural-network-for-pneumonia-patients.ipynb) first.
 ### 2. Follow along with the coding narrative and comments.
 ### 3. Preview the uploaded presentation, [Convolutional Neural Network for Pneumonia Patients ](https://github.com/JohnPaulHernandezAlcala/Image-Classification-with-Deep-Learning-of-Pneumonia/blob/main/Convolutional-Neural-Network-for-Pneumonia-Patients.pdf).
 
